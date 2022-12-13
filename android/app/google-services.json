@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1071802371727",
+    "project_id": "minlchat",
+    "storage_bucket": "minlchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071802371727:android:06359a1e8e545e3b10eafa",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071802371727-hroso5mheifvf9acpj3p4reqahvju3a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd5UyJEsGy1PnWHq7ac4QdZEpjAsedkCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071802371727-hroso5mheifvf9acpj3p4reqahvju3a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

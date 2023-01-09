@@ -26,11 +26,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'MINL Chat',
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: backgroundColor,
-        appBarTheme: const AppBarTheme(
-          color: appBarColor,
-        )
-      ),
+          scaffoldBackgroundColor: backgroundColor,
+          appBarTheme: const AppBarTheme(
+            color: appBarColor,
+          )),
       // home: const ResponsiveLayout(
       //   mobileScreenLayout: MobileLayoutScreen(),
       //   webScreenLayout: WebLayoutScreen(),
@@ -40,6 +39,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-

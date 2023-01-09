@@ -14,7 +14,12 @@
 *.ipr
 *.iws
 .idea/
-
+.firebaserc
+/database.rules.json
+/firebase.json
+firestore.indexes.json
+/firestore.rules
+/storage.rules
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.

@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "1071802371727",
+    "firebase_url": "https://minlchat-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "minlchat",
     "storage_bucket": "minlchat.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "1071802371727-sq6crumvkqeuvo52fvjovpc0jvslueqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsapp_ui",
+            "certificate_hash": "1e6e3f01a972581dc5f37514e9a1b0945c300248"
+          }
+        },
         {
           "client_id": "1071802371727-hroso5mheifvf9acpj3p4reqahvju3a1.apps.googleusercontent.com",
           "client_type": 3
@@ -29,6 +38,13 @@
             {
               "client_id": "1071802371727-hroso5mheifvf9acpj3p4reqahvju3a1.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1071802371727-2kfkmnndvqa5q99hjdc0kd1ijfrnjm2c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.whatsappUi"
+              }
             }
           ]
         }

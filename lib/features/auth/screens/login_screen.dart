@@ -17,7 +17,6 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-
   final phoneController = TextEditingController();
   Country? country;
 
@@ -26,12 +25,14 @@ class _LoginScreenState extends State<LoginScreen> {
     super.dispose();
   }
 
-  void pickCountry () {
-    showCountryPicker(context: context, onSelect: (Country _country){
-      setState(() {
-        country = _country;
-      });
-    });
+  void pickCountry() {
+    showCountryPicker(
+        context: context,
+        onSelect: (Country _country) {
+          setState(() {
+            country = _country;
+          });
+        });
   }
 
   @override
@@ -56,13 +57,16 @@ class _LoginScreenState extends State<LoginScreen> {
                 const SizedBox(
                   height: 10,
                 ),
-                TextButton(onPressed: pickCountry, child: const Text('Pick Country')),
+                TextButton(
+                    onPressed: pickCountry, child: const Text('Pick Country')),
                 const SizedBox(
                   height: 5,
                 ),
                 Row(
                   children: [
-                    country!= null ? Text('+${country!.phoneCode}') : const Text(''),
+                    country != null
+                        ? Text('+${country!.phoneCode}')
+                        : const Text(''),
                     const SizedBox(
                       width: 10,
                     ),
@@ -70,7 +74,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       width: size.width * 0.7,
                       child: TextField(
                         controller: phoneController,
-                        decoration: const InputDecoration(hintText: 'phone number'),
+                        decoration:
+                            const InputDecoration(hintText: 'phone number'),
                       ),
                     )
                   ],
@@ -84,16 +89,12 @@ class _LoginScreenState extends State<LoginScreen> {
             //     text: 'Next',
             //     onPressed: () {},
             //   ),
-            // )  
+            // )
 
             SizedBox(
-              width: size.width*0.4,
-              child: CustomButton(
-                text: 'Next', 
-                onPressed: (){}
-              ),
+              width: size.width * 0.4,
+              child: CustomButton(text: 'Next', onPressed: () {}),
             ),
- 
           ],
         ),
       ),
